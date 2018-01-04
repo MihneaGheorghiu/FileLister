@@ -106,7 +106,7 @@ void print_tree(Nod *current_nod)
 			printf("%c", 195);
 			for (int i = 0; i < depth; i++)
 			{
-				printf("%c%c%c", 196, 196, 196);
+				printf("%c%c%c", 196, 196, 197);
 			}
 		}//depth == 1
 		if (depth > 1)
