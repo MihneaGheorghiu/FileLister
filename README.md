@@ -6,4 +6,6 @@ To run it use ctrl+F5 from Visual C or run the .exe file from Windows cmd by goi
 
 file_browser_dirent.exe or
 file_browser_dirent.exe > runlog.doc 
-Be careful in the second case not to use run.log or runlog.txt because with notepad and even npp++ you will have a crashed output because of the MSDOS characters I use the draw the tree.
+Be careful in the second case not to use run.log or runlog.txt because with notepad and even npp++ you will have a crashed output because of the MSDOS characters I use to draw the tree.
+
+It has a limitation: it considers files without '.' char in them folders, which is not always true, since there are simple files without extension and make sure not to hide the file extension.
